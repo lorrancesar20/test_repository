@@ -1,7 +1,7 @@
 
 
 install.packages("RMySQL")
-library(RMySQL)  
+library(RMySQL)   
 
 #conectando dw
 con_dw <- dbConnect(RMySQL::MySQL(), 
